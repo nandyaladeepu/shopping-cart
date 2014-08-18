@@ -1,0 +1,17 @@
+[
+	{
+		"id":1,
+		"name": "Canon 5D Mark ii",
+		"price": "2000",
+		"image_size": "12.8 MP",
+		"type": "Single Lens Reflex"
+	},
+	{
+		"id": 2,
+		"name": "Canon 5D Mark iii",
+		"price": "2000",
+		"image_size": "12.8 MP",
+		"type": "Single Lens Reflex"
+
+	}
+]

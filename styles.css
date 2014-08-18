@@ -1,0 +1,60 @@
+body{
+	width:100%;
+}
+
+.fl{
+	float: left;
+}
+
+
+.clearfix:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+ 
+.clearfix {
+    display: inline-block;
+}
+ 
+html[xmlns] .clearfix {
+    display: block;
+}
+ 
+* html .clearfix {
+    height: 1%;
+}
+.sidebar > ul{
+	padding :0;
+	margin:0;
+}
+.sidebar >ul > li{
+	padding: 10px 20px;
+	cursor: pointer;
+
+}
+.product, .cart{
+    border-bottom: 1px solid #ccc;
+    padding: 10px;
+    width: 100%;
+}
+.active{
+    border-right: 5px solid #666;
+}
+#message{
+    width: 100%;
+    padding: 5px 10px;
+    color: #3c763d;
+    background-color: #dff0d8;
+    border-color: #d6e9c6;
+}
+#errormessage{
+    width: 100%;
+    padding: 5px 10px;
+    color: #a94442;
+    background-color: #f2dede;
+    border-color: #ebccd1;
+}

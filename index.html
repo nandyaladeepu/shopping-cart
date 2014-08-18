@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en" ng-app="app">
+<head>
+	<meta charset="UTF-8">
+	<title>Cam Store</title>
+	<link rel="stylesheet" href="css/bootstrap-theme.min.css">
+	<link rel="stylesheet" href="css/bootstrap.min.css">
+	<script src="jquery.js"></script>
+	<script src="js/myjs.js"></script>
+	<link rel="stylesheet" href="styles.css">
+	
+</head>
+<body >
+	<div class="page-header">
+	  <h1> <small>Cam store</small></h1>
+	</div>
+	
+	<div class="maincontainer ">
+		<div class="container clearfix">
+			<div class="sidebar clearfix fl">
+				<ul>
+					<li id="products" class="active">Products</li>
+					<li id="cart">Cart</li>
+				</ul>
+			</div>
+			<div class="containerbox fl ">
+				<div id="message" style="display:none"> Item added to cart</div>
+				<div id="errormessage" style="display:none">Item deleted from cart</div>
+				<div id="productcontainer">
+					<h4>Products</h4>
+					<div class="product clearfix">
+						<p class="itemid">#1234</p>
+						<p class="name">Canon 5d Mark ii</p>
+						<p class="price">3400$</p>
+						<button class="tocart">Add to Cart</button>
+						<button class="deletefromcart" style="display:none">delete</button>
+
+					</div>
+					<div class="product clearfix">
+						<p class="itemid">#1231</p>
+
+						<p class="name">Canon 5d Mark iii</p>
+						<p class="price">4200$</p>
+						<button class="tocart">Add to Cart</button>
+						<button class="deletefromcart" style="display:none">delete</button>
+					</div>
+					<div class="product clearfix">
+						<p class="itemid">#1233</p>	
+						<p class="name">Nikon D3200</p>
+						<p class="price">600$</p>
+						<button class="tocart">Add to Cart</button>
+						<button class="deletefromcart" style="display:none">delete</button>
+
+					</div>
+					<div class="product clearfix">
+						<p class="name">Nikon D810</p>
+						<p class="price">2500$</p>
+						<button class="tocart" >Add to Cart</button>
+						<button class="deletefromcart" style="display:none">delete</button>
+					</div>
+					<div class="product clearfix">
+						<p class="name">Canon 550d</p>
+						<p class="price">600$</p>
+						<button class="tocart">Add to Cart</button>
+						<button class="deletefromcart" style="display:none">delete</button>
+					</div>
+				</div>
+				<div id="cartcontainer" style="display:none">
+					<h4>Cart</h4>
+					
+				</div>
+			</div>
+		</div>
+    
+
+
+
+
+
+			
+
+		
+	</div>
+</div>
+
+</body>
+</html>
